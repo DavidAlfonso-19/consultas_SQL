@@ -1,15 +1,12 @@
-# consultas_SQL
-Conexión y consultas a una base de datos PostgreSQL para analizar libros, autores, editoriales y comportamiento de usuarios en una aplicación de lectura digital. El proyecto incluye más de 10 consultas SQL con diferentes niveles de complejidad para responder preguntas clave del negocio.
-
 # 📚 Análisis de base de datos de libros electrónicos
 
-Este proyecto consiste en la exploración y análisis de una base de datos relacional de una aplicación de libros electrónicos. El objetivo es extraer insights clave sobre publicaciones, autores, editoriales y comportamiento de los usuarios a partir de consultas SQL.
+Este proyecto consiste en la exploración y análisis de una base de datos relacional de una aplicación de libros electrónicos. El objetivo es responder preguntas clave sobre publicaciones, autores, editoriales y comportamiento de los usuarios a partir de consultas SQL.
 
 ## 🎯 Objetivo
 
-- Obtener información útil para generar una propuesta de valor para el producto digital.
-- Identificar a los autores y editoriales más relevantes.
-- Analizar el comportamiento de los usuarios en cuanto a calificaciones y reseñas.
+- Responder preguntas relevantes del negocio.
+- Identificar a los autores y editoriales más importantes.
+- Analizar el comportamiento de los usuarios respecto a calificaciones y reseñas.
 
 ## 🧰 Tecnologías utilizadas
 
@@ -21,17 +18,19 @@ Este proyecto consiste en la exploración y análisis de una base de datos relac
 
 ## 🔍 Consultas realizadas
 
-- Número de libros publicados después del año 2000
-- Editorial con mayor cantidad de libros (más de 50 páginas)
-- Autor con mejor calificación promedio (mínimo 50 reseñas)
-- Promedio de reseñas entre usuarios más activos
-- Calificación promedio por libro
+- Número de libros publicados después del año 2000.
+- Número de reseñas de usuarios y calificación promedio por libro.
+- Editorial con mayor cantidad de libros (más de 50 páginas).
+- Autor con mejor calificación promedio (mínimo 50 reseñas).
+- Promedio de reseñas entre usuarios más activos.
 
 ## 📌 Conclusiones
 
-- Se identificó una editorial destacada en cantidad y variedad de publicaciones.
-- Se detectaron autores con alta calificación entre libros con gran volumen de reseñas.
-- Los usuarios más activos tienden a generar más contenido valioso en forma de reseñas.
+- Desde el 1 de enero del 2000 se publicaron 819 libros.
+- La correlación entre número de reseñas y calificación promedio es prácticamente nula, lo que indica que ambas variables son independientes.
+- ‘Penguin Books’ es la editorial con más libros de más de 50 páginas, con un total de 42 publicaciones.
+- Los autores J.K. Rowling y Mary GrandPré tienen el libro con la mejor calificación promedio: *Harry Potter and the Prisoner of Azkaban*.
+- Los usuarios más activos generan en promedio 24 reseñas.
 
 ## 📎 Cómo ejecutarlo
 
